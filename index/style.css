@@ -1,0 +1,139 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+
+a:hover {
+  opacity: 0.65;
+}
+
+.bg {
+  background-image: url(bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dflt {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: anim8 20s ease forwards, blink 1.45s infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  width: auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: -apple-system, monospace;
+  color: white;
+  text-decoration: none;
+}
+
+.blinkr {
+  border-right: 0.08em solid white;
+}
+
+.gh {
+  top: 90%;
+  transform: translate(-125%, -50%);
+  animation: anim8 32s ease forwards;
+  font-size: 22px;
+  color: gray;
+}
+
+.yt {
+  transform: translate(25%, -50%);
+}
+
+.mid {
+  transform: translate(-25%, -50%);
+  font-size: 25px;
+  color: rgb(166, 166, 166);
+}
+
+.go-byke {
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: anim8 32s ease forwards;
+  font-size: 15px;
+  color: gray;
+}
+
+.fade-in {
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
+}
+
+@keyframes anim8 {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: white;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

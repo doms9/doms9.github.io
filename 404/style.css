@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.pads {
+  padding-top: 5px;
+}
+
+p.indent {
+  text-indent: 30px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.text2 {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.lorem {
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.spacing {
+  margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+a .text {
+  opacity: 1;
+}
+a:hover {
+  opacity: 0.75;
+}
